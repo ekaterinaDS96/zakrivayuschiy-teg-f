@@ -35,7 +35,7 @@
 .header {
   display: grid;
   justify-items: center;
-  border: 2px solid currentColor;
+  border: 2px solid var(--accent-color, #00cc14);
   background-color: var(--background-color, #000);
   padding: clamp(7.5rem, 7.1479rem + 1.5023vw, 8.5rem) 0 25px;
   margin-block-end: 100px;
@@ -78,7 +78,7 @@
 
 .theme-menu__button:focus {
   outline: none;
-  opacity: 0.6  ;
+  opacity: 0.6;
 }
 
 .theme-menu__button:disabled::before {
@@ -278,6 +278,7 @@
 .button_save svg {
   block-size: 21px;
   mix-blend-mode: difference;
+  color: var(--button-text);
 }
 
 .popup {
