@@ -12,7 +12,7 @@
             repeating-linear-gradient(180deg, #000 0 2px, rgba(0, 0, 0, 0) 2px 4px),
             linear-gradient(180deg, #007f0c 0%, #004306 100%);
     --tag-color: #00cc14;
-    --button-text: var(--accent-color)
+    --button-text: var(--accent-color);
 }
 
 :root.theme-light {
@@ -48,6 +48,6 @@
                 repeating-linear-gradient(180deg, #000 0 2px, rgba(0, 0, 0, 0) 2px 4px),
                 linear-gradient(180deg, #007f0c 0%, #004306 100%);
         --tag-color: #00cc14;
-        --button-text: var(--accent-color)
+        --button-text: var(--accent-color);
     }
 }
