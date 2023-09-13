@@ -8,6 +8,7 @@
     <link rel="icon" href="./images/favicon.ico" sizes="any" />
     <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="./images/apple-icon.png" />
+    <!-- Шрифты подключены первыми, потом переменные, так как могут использоваться и в globals, за ними globals и style -->
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
@@ -518,6 +519,8 @@
           </button>
         </div>
       </article>
+    </main>
+    <footer>
       <button
               type="button"
               class="button button_save"
@@ -529,23 +532,23 @@
         </svg>
         <span class="button__text">Сохранить на память</span>
       </button>
-      <dialog class="popup" id="floppy-dialog">
-        <svg
-                class="popup__icon"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 39 39"
-        >
-          <use href="./svg/floppy.svg#floppy"></use>
-        </svg>
-        <p class="popup__text">Вставьте дискету, чтобы продолжить</p>
-        <form class="popup__controller" method="dialog">
-          <button class="button popup__close-button">
-            <span class="button__text">Ок</span>
-          </button>
-        </form>
-      </dialog>
-    </main>
+    </footer>
+    <dialog class="popup" id="floppy-dialog">
+      <svg
+              class="popup__icon"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 39 39"
+      >
+        <use href="./svg/floppy.svg#floppy"></use>
+      </svg>
+      <p class="popup__text">Вставьте дискету, чтобы продолжить</p>
+      <form class="popup__controller" method="dialog">
+        <button class="button popup__close-button">
+          <span class="button__text">Ок</span>
+        </button>
+      </form>
+    </dialog>
     <script src="./scripts/like.js"></script>
   </body>
 </html>

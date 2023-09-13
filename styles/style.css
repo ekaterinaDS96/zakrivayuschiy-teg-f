@@ -124,7 +124,7 @@
   padding: 5px 10px;
   font-variation-settings: 'wght' var(--card-title-font-weight, 785);
   font-size: 18px;
-  border-block-end: 2px solid var(--accent-color, #00cc14)
+  border-block-end: 2px solid var(--accent-color, #00cc14);
 }
 
 .card__image-container {
@@ -276,13 +276,14 @@
 }
 
 .button_save svg {
-  block-size: 21px;
+  inline-size: 24px;
   mix-blend-mode: difference;
   color: var(--button-text);
 }
 
 .popup {
   inline-size: 357px;
+  block-size: 193px;
   border: 2px solid var(--accent-color);
   padding: 30px;
   color: var(--accent-color);
