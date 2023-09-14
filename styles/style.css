@@ -39,7 +39,7 @@
   background-color: var(--background-color, #000);
   padding: clamp(7.5rem, 7.1479rem + 1.5023vw, 8.5rem) 0 25px;
   margin-block-end: 100px;
-  font-family: var(--accent-font-family);
+  font-family: var(--accent-font-family), fantasy;
 }
 
 .header__title {
@@ -135,8 +135,8 @@
   content: "</HTML>";
   position: absolute;
   opacity: 0.5;
-  color: #000;
-  font-family: var(--accent-font-family);
+  color: var(--black, #000);
+  font-family: var(--accent-font-family), fantasy;
   font-size: 14px;
   text-shadow: 0 0 1px var(--tag-color);
   inset-block-start: 25px;
@@ -221,7 +221,7 @@
   padding: 9px 17px;
   min-inline-size: 130px;
   color: var(--button-text);
-  font-family: var(--accent-font-family), sans-serif;
+  font-family: var(--accent-font-family), fantasy;
   font-size: 14px;
   background-color: var(--background-color);
   cursor: pointer;
@@ -287,7 +287,7 @@
   border: 2px solid var(--accent-color);
   padding: 30px;
   color: var(--accent-color);
-  font-family: var(--accent-font-family), sans-serif;
+  font-family: var(--accent-font-family), fantasy;
   font-size: 14px;
   background-color: var(--background-color);
 }
@@ -318,7 +318,7 @@
 }
 
 .popup[open]::backdrop {
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: var(--black-75);
 }
 
 @media (width <= 375px) {
