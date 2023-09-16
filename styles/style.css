@@ -317,6 +317,10 @@
   text-transform: uppercase;
 }
 
+::backdrop {
+  --black: #000;
+}
+
 .popup[open]::backdrop {
   background-color: var(--black, #000);
   opacity: 0.75;
