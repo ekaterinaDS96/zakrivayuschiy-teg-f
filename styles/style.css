@@ -318,7 +318,8 @@
 }
 
 .popup[open]::backdrop {
-  background-color: var(--black-75);
+  background-color: var(--black, #000);
+  opacity: 0.75;
 }
 
 @media (width <= 375px) {
